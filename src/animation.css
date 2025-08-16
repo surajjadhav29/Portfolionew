@@ -1,0 +1,130 @@
+@keyframes morph {
+  0% {
+    border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+  }
+  50% {
+    border-radius: 30% 60% 70% 40% / 50% 60% 30% 60%;
+  }
+  100% {
+    border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+  }
+}
+
+.animate-morph {
+  animation: morph 10s infinite;
+}
+
+/*----------------------------------------------------*/
+.typewriter-text {
+  animation: typewriter 6s steps(220) infinite;
+}
+
+.typewriter-text::before {
+  content: "Frontend Developer";
+  display: inline-block;
+  animation: changeText 12s linear infinite;
+}
+
+@keyframes typewriter {
+  0%,
+  10% {
+    width: 0;
+  }
+  30%,
+  70% {
+    width: 100%;
+  }
+  90%,
+  100% {
+    width: 0;
+  }
+}
+
+@keyframes changeText {
+  0%,
+  49.99% {
+    content: "Frontend Developer";
+  }
+  50%,
+  100% {
+    content: "Frontend Developer";
+  }
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+/* -------------------------loader------------------------ */
+.loaderAnimate {
+  animation: loaderSpin 2s linear infinite;
+}
+.circle:nth-child(1) {
+  top: 0;
+  left: 0;
+}
+.circle:nth-child(2) {
+  top: 0;
+  right: 0;
+}
+.circle:nth-child(3) {
+  bottom: 0;
+  left: 0;
+}
+.circle:nth-child(4) {
+  bottom: 0;
+  right: 0;
+}
+@keyframes loaderSpin {
+  0% {
+    transform: scale(1) rotate(0);
+  }
+
+  20%,
+  25% {
+    transform: scale(1.3) rotate(90deg);
+  }
+
+  45%,
+  50% {
+    transform: scale(1) rotate(180deg);
+  }
+
+  70%,
+  75% {
+    transform: scale(1.3) rotate(270deg);
+  }
+
+  95%,
+  100% {
+    transform: scale(1) rotate(360deg);
+  }
+}
+@keyframes slideRightToLeftSkill {
+  from {
+    left: max(calc(20rem * 12), 100%);
+  }
+  to {
+    left: -20rem;
+  }
+}
+@keyframes slideRightToLeftTool {
+  from {
+    left: -14rem;
+  }
+  to {
+    left: max(calc(14rem * 11), 100%);
+  }
+}
+.skillElements {
+  animation-name: slideRightToLeftSkill;
+  animation-duration: 60s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+.toolElements {
+  animation-name: slideRightToLeftTool;
+  animation-duration: 20s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}

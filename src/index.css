@@ -1,0 +1,115 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --white-primary: #ffffff;
+  --pink-primary: #ff6481;
+  --light-pink-primary: #fff4f5;
+  --gray-primary: #4d6385;
+  --black-primary: #282424;
+}
+
+*,
+*::before,
+*::after,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  color: inherit;
+}
+/* Root font size for easy rem calculations (1rem = 10px) */
+html {
+  font-size: 42%; /* 10px base font size for easy rem calculations */
+  scroll-behavior: smooth; /* Smooth scrolling */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  font-size: 1.6rem; /* Base font size: 16px */
+  background-color: #fff; /* Default background */
+  text-rendering: optimizeLegibility;
+}
+
+img,
+picture,
+video,
+canvas {
+  display: block;
+  max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+  transition: color 300ms ease-out;
+  transition: border 100ms ease-out;
+}
+p {
+  font-weight: 500;
+  font-size: 1.5rem;
+  line-height: 2.6rem;
+}
+
+.switch {
+  font-size: 17px;
+  position: relative;
+  display: inline-block;
+  width: 3.5em;
+  height: 2em;
+}
+
+/* Hide default HTML checkbox */
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+/*----------------------------------------------------*/
+@media screen and (min-width: 540px) {
+  html {
+    font-size: 56%;
+  }
+}
+@media screen and (min-width: 768px) {
+  html {
+    font-size: 48%;
+  }
+}
+@media screen and (min-width: 1024px) {
+  html {
+    font-size: 62.5%;
+  }
+}
+@media screen and (min-width: 1281px) {
+  html {
+    font-size: 80%;
+  }
+}
+@media screen and (min-width: 1441px) {
+  html {
+    font-size: 100%;
+  }
+}
