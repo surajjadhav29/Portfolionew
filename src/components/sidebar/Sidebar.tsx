@@ -24,7 +24,7 @@ const Sidebar: React.FC<props> = ({ sidebar }) => {
     <div
       className={`bg-primaryWhite no-scrollbar ${
         sidebar
-          ? `w-[250px] max-sm1:w-[200px] 2xl:w-[350px] translate-x-0 ${
+          ? `w-[250px] max-sm1:w-[200px] 2xl:w-[370px] translate-x-0 ${
               sidebar === 1 ? "fixed" : "sticky"
             } top-0 left-0`
           : "-translate-x-full fixed"
