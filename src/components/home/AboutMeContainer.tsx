@@ -25,8 +25,7 @@ const AboutMeContainer = () => {
             title="Frontend Developer"
             valueName="Consociate Solutions Pvt Ltd"
             valueLink="https://consociatesolutions.com/"
-            valueText="As a Frontend Developer at Consociate Solutions Pvt Ltd, I migrated Django templates to React.js and built Next.js app, deploying it on both Google
-            Play and Apple App Store."
+            valueText="As a Frontend Developer at Consociate Solutions Pvt Ltd,Designed and developed user-friendly, scalable frontend systems using modern frameworks like React JS, Next.JS  Ensured intuitive UI/UX, cross-browser compatibility, and adherence to mobile-first design principles to enhance user experience across various devices"
             date="Feb 2024 - July 2025"
           >
             <PrimaryBtn
