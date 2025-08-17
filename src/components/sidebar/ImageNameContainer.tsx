@@ -15,8 +15,7 @@ const ImageNameContainer = () => {
       <div className="mt-8 mb-4">
         <img
           src={profilePic}
-          width={195}
-          className="rounded-full mx-auto relative aspect-square hover:scale-110 transition-transform duration-300"
+          className="rounded-full w-[135px] lg:w-[200px] mx-auto relative aspect-square hover:scale-110 transition-transform duration-300"
         />
       </div>
       <div className="text-center">

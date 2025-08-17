@@ -12,7 +12,7 @@ const Navbar = () => {
   );
   return (
     <div
-      className="sticky top-0 h-20 bg-primaryWhite p-6 mb-16 flex justify-between z-10"
+      className="sticky top-0 lg:h-20 h-32 bg-primaryWhite p-6 mb-16 flex justify-between z-10"
       style={{ boxShadow: "rgba(17, 12, 46, 0.15) 0px 48px 100px 0px" }}
     >
       <div className="flex items-center justify-center gap-6">
