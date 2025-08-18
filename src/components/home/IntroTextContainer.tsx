@@ -11,7 +11,7 @@ const IntroTextContainer = () => {
       <p className="font-normal my-6 text-[1.8rem] leading-[2.8rem]">
         with 1.5+ years of experience building high-performance web and mobile
         applications using
-        <strong className=" font-semibold">
+        <strong className=" font-semibold px-2">
           React, Next.js, and TypeScript.
         </strong>
       </p>
