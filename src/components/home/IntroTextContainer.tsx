@@ -12,7 +12,7 @@ const IntroTextContainer = () => {
         with 1.5+ years of experience building high-performance web and mobile
         applications using
         <strong className=" font-semibold px-2">
-          React, Next.js, and TypeScript.
+          React, Next.js, Javascript and TypeScript.
         </strong>
       </p>
     </div>
